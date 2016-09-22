@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECD93701D936AAD00E4E98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD936F1D936AAD00E4E98B /* AppDelegate.swift */; };
+		3ECD93721D936AAD00E4E98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD93711D936AAD00E4E98B /* ViewController.swift */; };
+		3ECD93741D936AAD00E4E98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD93731D936AAD00E4E98B /* Assets.xcassets */; };
+		3ECD93771D936AAD00E4E98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECD93751D936AAD00E4E98B /* Main.storyboard */; };
+		3ECD93821D936AAD00E4E98B /* ime_switcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD93811D936AAD00E4E98B /* ime_switcherTests.swift */; };
+		3ECD938D1D936AAD00E4E98B /* ime_switcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECD938C1D936AAD00E4E98B /* ime_switcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECD937E1D936AAD00E4E98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECD93641D936AAC00E4E98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECD936B1D936AAC00E4E98B;
+			remoteInfo = "ime-switcher";
+		};
+		3ECD93891D936AAD00E4E98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECD93641D936AAC00E4E98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECD936B1D936AAC00E4E98B;
+			remoteInfo = "ime-switcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECD936C1D936AAD00E4E98B /* ime-switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ime-switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECD936F1D936AAD00E4E98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECD93711D936AAD00E4E98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ECD93731D936AAD00E4E98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECD93761D936AAD00E4E98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECD93781D936AAD00E4E98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECD937D1D936AAD00E4E98B /* ime-switcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ime-switcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECD93811D936AAD00E4E98B /* ime_switcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ime_switcherTests.swift; sourceTree = "<group>"; };
+		3ECD93831D936AAD00E4E98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECD93881D936AAD00E4E98B /* ime-switcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ime-switcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECD938C1D936AAD00E4E98B /* ime_switcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ime_switcherUITests.swift; sourceTree = "<group>"; };
+		3ECD938E1D936AAD00E4E98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECD93691D936AAC00E4E98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECD937A1D936AAD00E4E98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECD93851D936AAD00E4E98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECD93631D936AAC00E4E98B = {
+			isa = PBXGroup;
+			children = (
+				3ECD936E1D936AAD00E4E98B /* ime-switcher */,
+				3ECD93801D936AAD00E4E98B /* ime-switcherTests */,
+				3ECD938B1D936AAD00E4E98B /* ime-switcherUITests */,
+				3ECD936D1D936AAD00E4E98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECD936D1D936AAD00E4E98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECD936C1D936AAD00E4E98B /* ime-switcher.app */,
+				3ECD937D1D936AAD00E4E98B /* ime-switcherTests.xctest */,
+				3ECD93881D936AAD00E4E98B /* ime-switcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECD936E1D936AAD00E4E98B /* ime-switcher */ = {
+			isa = PBXGroup;
+			children = (
+				3ECD936F1D936AAD00E4E98B /* AppDelegate.swift */,
+				3ECD93711D936AAD00E4E98B /* ViewController.swift */,
+				3ECD93731D936AAD00E4E98B /* Assets.xcassets */,
+				3ECD93751D936AAD00E4E98B /* Main.storyboard */,
+				3ECD93781D936AAD00E4E98B /* Info.plist */,
+			);
+			path = "ime-switcher";
+			sourceTree = "<group>";
+		};
+		3ECD93801D936AAD00E4E98B /* ime-switcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECD93811D936AAD00E4E98B /* ime_switcherTests.swift */,
+				3ECD93831D936AAD00E4E98B /* Info.plist */,
+			);
+			path = "ime-switcherTests";
+			sourceTree = "<group>";
+		};
+		3ECD938B1D936AAD00E4E98B /* ime-switcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECD938C1D936AAD00E4E98B /* ime_switcherUITests.swift */,
+				3ECD938E1D936AAD00E4E98B /* Info.plist */,
+			);
+			path = "ime-switcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECD936B1D936AAC00E4E98B /* ime-switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECD93911D936AAD00E4E98B /* Build configuration list for PBXNativeTarget "ime-switcher" */;
+			buildPhases = (
+				3ECD93681D936AAC00E4E98B /* Sources */,
+				3ECD93691D936AAC00E4E98B /* Frameworks */,
+				3ECD936A1D936AAC00E4E98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ime-switcher";
+			productName = "ime-switcher";
+			productReference = 3ECD936C1D936AAD00E4E98B /* ime-switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECD937C1D936AAD00E4E98B /* ime-switcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECD93941D936AAD00E4E98B /* Build configuration list for PBXNativeTarget "ime-switcherTests" */;
+			buildPhases = (
+				3ECD93791D936AAD00E4E98B /* Sources */,
+				3ECD937A1D936AAD00E4E98B /* Frameworks */,
+				3ECD937B1D936AAD00E4E98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECD937F1D936AAD00E4E98B /* PBXTargetDependency */,
+			);
+			name = "ime-switcherTests";
+			productName = "ime-switcherTests";
+			productReference = 3ECD937D1D936AAD00E4E98B /* ime-switcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ECD93871D936AAD00E4E98B /* ime-switcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECD93971D936AAD00E4E98B /* Build configuration list for PBXNativeTarget "ime-switcherUITests" */;
+			buildPhases = (
+				3ECD93841D936AAD00E4E98B /* Sources */,
+				3ECD93851D936AAD00E4E98B /* Frameworks */,
+				3ECD93861D936AAD00E4E98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECD938A1D936AAD00E4E98B /* PBXTargetDependency */,
+			);
+			name = "ime-switcherUITests";
+			productName = "ime-switcherUITests";
+			productReference = 3ECD93881D936AAD00E4E98B /* ime-switcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECD93641D936AAC00E4E98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kan Fushihara";
+				TargetAttributes = {
+					3ECD936B1D936AAC00E4E98B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3ECD937C1D936AAD00E4E98B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ECD936B1D936AAC00E4E98B;
+					};
+					3ECD93871D936AAD00E4E98B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ECD936B1D936AAC00E4E98B;
+					};
+				};
+			};
+			buildConfigurationList = 3ECD93671D936AAC00E4E98B /* Build configuration list for PBXProject "ime-switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECD93631D936AAC00E4E98B;
+			productRefGroup = 3ECD936D1D936AAD00E4E98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECD936B1D936AAC00E4E98B /* ime-switcher */,
+				3ECD937C1D936AAD00E4E98B /* ime-switcherTests */,
+				3ECD93871D936AAD00E4E98B /* ime-switcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECD936A1D936AAC00E4E98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECD93741D936AAD00E4E98B /* Assets.xcassets in Resources */,
+				3ECD93771D936AAD00E4E98B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECD937B1D936AAD00E4E98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECD93861D936AAD00E4E98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECD93681D936AAC00E4E98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECD93721D936AAD00E4E98B /* ViewController.swift in Sources */,
+				3ECD93701D936AAD00E4E98B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECD93791D936AAD00E4E98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECD93821D936AAD00E4E98B /* ime_switcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECD93841D936AAD00E4E98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECD938D1D936AAD00E4E98B /* ime_switcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECD937F1D936AAD00E4E98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECD936B1D936AAC00E4E98B /* ime-switcher */;
+			targetProxy = 3ECD937E1D936AAD00E4E98B /* PBXContainerItemProxy */;
+		};
+		3ECD938A1D936AAD00E4E98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECD936B1D936AAC00E4E98B /* ime-switcher */;
+			targetProxy = 3ECD93891D936AAD00E4E98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ECD93751D936AAD00E4E98B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECD93761D936AAD00E4E98B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECD938F1D936AAD00E4E98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECD93901D936AAD00E4E98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3ECD93921D936AAD00E4E98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ime-switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fushihara.ime-switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3ECD93931D936AAD00E4E98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ime-switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fushihara.ime-switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3ECD93951D936AAD00E4E98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ime-switcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fushihara.ime-switcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ime-switcher.app/Contents/MacOS/ime-switcher";
+			};
+			name = Debug;
+		};
+		3ECD93961D936AAD00E4E98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ime-switcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fushihara.ime-switcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ime-switcher.app/Contents/MacOS/ime-switcher";
+			};
+			name = Release;
+		};
+		3ECD93981D936AAD00E4E98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ime-switcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fushihara.ime-switcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ime-switcher";
+			};
+			name = Debug;
+		};
+		3ECD93991D936AAD00E4E98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ime-switcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.fushihara.ime-switcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ime-switcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECD93671D936AAC00E4E98B /* Build configuration list for PBXProject "ime-switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECD938F1D936AAD00E4E98B /* Debug */,
+				3ECD93901D936AAD00E4E98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECD93911D936AAD00E4E98B /* Build configuration list for PBXNativeTarget "ime-switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECD93921D936AAD00E4E98B /* Debug */,
+				3ECD93931D936AAD00E4E98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ECD93941D936AAD00E4E98B /* Build configuration list for PBXNativeTarget "ime-switcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECD93951D936AAD00E4E98B /* Debug */,
+				3ECD93961D936AAD00E4E98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ECD93971D936AAD00E4E98B /* Build configuration list for PBXNativeTarget "ime-switcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECD93981D936AAD00E4E98B /* Debug */,
+				3ECD93991D936AAD00E4E98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECD93641D936AAC00E4E98B /* Project object */;
+}
