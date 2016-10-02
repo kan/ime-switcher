@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ime_switcherUITests: XCTestCase {
+class IMESwitcherUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

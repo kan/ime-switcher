@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2333a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -10,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="ime-switcher" id="1Xt-HY-uBw">
+                            <menuItem title="IMESwitcher" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="ime-switcher" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="IMESwitcher" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About ime-switcher" id="5kV-Vb-QxS">
+                                        <menuItem title="About IMESwitcher" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -28,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide ime-switcher" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Sample" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -46,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit ime-switcher" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit IMESwitcher" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -639,7 +640,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="ime-switcher Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Sample Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -653,7 +654,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="IMESwitcher" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
@@ -662,32 +663,355 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="設定" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="196" y="240" width="188" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
-                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
+                        <segue destination="s8x-sg-e5v" kind="relationship" relationship="window.shadowedContentViewController" id="B96-Eb-o7k"/>
                     </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="-71" y="250"/>
+        </scene>
+        <!--Tab View Controller-->
+        <scene sceneID="cSQ-ot-QVs">
+            <objects>
+                <tabViewController selectedTabViewItemIndex="0" tabStyle="toolbar" id="s8x-sg-e5v" sceneMemberID="viewController">
+                    <tabViewItems>
+                        <tabViewItem label="アプリ設定" identifier="1" image="NSPreferencesGeneral" id="mzK-wc-LP0"/>
+                        <tabViewItem label="キー設定" identifier="2" image="NSAdvanced" id="OEW-Lc-1uA"/>
+                    </tabViewItems>
+                    <tabView key="tabView" type="noTabsNoBorder" id="y0h-fY-Gv5">
+                        <rect key="frame" x="0.0" y="0.0" width="236" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <font key="font" metaFont="message"/>
+                        <tabViewItems/>
+                    </tabView>
+                    <connections>
+                        <segue destination="JBE-uN-CIj" kind="relationship" relationship="tabItems" id="Wi0-rR-caT"/>
+                        <segue destination="Zhn-Ub-lLa" kind="relationship" relationship="tabItems" id="1xZ-tU-d5k"/>
+                    </connections>
+                </tabViewController>
+                <customObject id="dlL-lP-daf" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="235"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="hIz-AP-VOD">
+        <scene sceneID="d0C-qD-dNq">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <viewController id="JBE-uN-CIj" customClass="ViewController" customModule="IMESwitcher" sceneMemberID="viewController">
+                    <view key="view" id="4fp-E6-33w">
+                        <rect key="frame" x="0.0" y="0.0" width="246" height="271"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYn-Cb-6P8">
+                                <rect key="frame" x="18" y="228" width="191" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="トレイにアイコンを表示しない" bezelStyle="regularSquare" imagePosition="left" lineBreakMode="truncatingTail" inset="2" id="eME-J8-EZd">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="checkHideIconCheckStateWithSender:" target="JBE-uN-CIj" id="We0-AP-JMA"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4iM-tg-rwi">
+                                <rect key="frame" x="18" y="201" width="191" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="ログイン時に起動する" bezelStyle="regularSquare" imagePosition="left" lineBreakMode="truncatingTail" inset="2" id="43f-xN-l4z">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="checkStartAtLoginCeckStateWithSender:" target="JBE-uN-CIj" id="9gH-qO-tqO"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odD-uZ-H3g">
+                                <rect key="frame" x="18" y="174" width="191" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="アプリ終了時に確認する" bezelStyle="regularSquare" imagePosition="left" lineBreakMode="truncatingTail" inset="2" id="1HW-Uw-qDJ">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                </buttonCell>
+                                <connections>
+                                    <binding destination="OMM-FB-L6W" name="value" keyPath="values.Confirm Quit" id="nT4-aF-L74"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="hideIconCheck" destination="uYn-Cb-6P8" id="3Ra-vT-KfI"/>
+                        <outlet property="startAtLoginCheck" destination="4iM-tg-rwi" id="pwm-Rv-IgS"/>
+                    </connections>
+                </viewController>
+                <customObject id="Dm7-0E-1i6" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController id="OMM-FB-L6W"/>
+            </objects>
+            <point key="canvasLocation" x="225" y="702.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G0n-UX-QEB">
+            <objects>
+                <viewController id="Zhn-Ub-lLa" sceneMemberID="viewController">
+                    <view key="view" id="24d-K4-ctB">
+                        <rect key="frame" x="0.0" y="0.0" width="244" height="271"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uuu-TS-kkT">
+                                <rect key="frame" x="106" y="203" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="LAH-bM-IRP" id="4DX-t4-f3B">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="Pjm-lk-x0r">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="LAH-bM-IRP"/>
+                                            <menuItem title="IME を on" id="hUk-T8-JDh"/>
+                                            <menuItem title="IME を off" id="VDL-Eu-toO"/>
+                                            <menuItem title="IME を on/off" id="FZd-cW-Wc0">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Left Control" id="ky7-UM-FNK"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hsk-lM-Fmy">
+                                <rect key="frame" x="19" y="208" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="左 Control" id="caM-YM-SLh">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHS-bz-fkZ">
+                                <rect key="frame" x="106" y="17" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="woP-3G-esu" id="gDh-G7-Smx">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="1xh-Kg-tV1">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="woP-3G-esu"/>
+                                            <menuItem title="IME を on" id="lQT-UI-SbZ"/>
+                                            <menuItem title="IME を off" id="J4W-cb-iGw"/>
+                                            <menuItem title="IME を on/off" id="DNu-Au-ILz">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Right Shift" id="AI1-sW-hir"/>
+                                </connections>
+                            </popUpButton>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2RU-C2-sjM">
+                                <rect key="frame" x="106" y="172" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="tJb-5y-C59" id="on8-GL-D6u">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="VaF-NI-Bl2">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="tJb-5y-C59"/>
+                                            <menuItem title="IME を on" id="dNi-ci-x7r"/>
+                                            <menuItem title="IME を off" id="kXS-Dg-afZ"/>
+                                            <menuItem title="IME を on/off" id="YSA-Ii-XTp">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Left Option" id="RM6-Kk-b1n"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fS-bE-3qd">
+                                <rect key="frame" x="18" y="177" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="左 Option" id="czu-Nf-KlA">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZo-RM-xQb">
+                                <rect key="frame" x="106" y="141" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="1tO-QI-I3O" id="FJX-rc-aTs">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="39O-cj-E6n">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="1tO-QI-I3O"/>
+                                            <menuItem title="IME を on" id="u7o-g3-eYw"/>
+                                            <menuItem title="IME を off" id="xH2-Ep-h77"/>
+                                            <menuItem title="IME を on/off" id="Ar9-ao-7BK">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Left Command" id="BO5-b9-3Wg"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eiD-oq-ish">
+                                <rect key="frame" x="19" y="146" width="82" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="左 Command" id="PJI-Tf-8nP">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G9j-De-OX8">
+                                <rect key="frame" x="106" y="110" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="rL0-A3-dwJ" id="S6x-44-QRN">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="u5p-d5-Bvj">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="rL0-A3-dwJ"/>
+                                            <menuItem title="IME を on" id="Fu5-cg-1Sa"/>
+                                            <menuItem title="IME を off" id="m5b-vH-QTd"/>
+                                            <menuItem title="IME を on/off" id="lsI-Ie-izf">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Right Control" id="nCA-1g-4gk"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAz-SX-BXP">
+                                <rect key="frame" x="18" y="115" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="右 Control" id="5db-iY-g8A">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zch-sK-DQq">
+                                <rect key="frame" x="106" y="79" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="eJw-5A-lMl" id="2Yc-53-fuq">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="ANa-PY-y0g">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="eJw-5A-lMl"/>
+                                            <menuItem title="IME を on" id="G1A-ri-GfF"/>
+                                            <menuItem title="IME を off" id="0AE-I0-EGD"/>
+                                            <menuItem title="IME を on/off" id="hJd-5D-6QI">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Right Option" id="Ud5-Vh-gTJ"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVP-Oc-cvr">
+                                <rect key="frame" x="18" y="84" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="右 Option" id="Gjw-b3-Ce5">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m0H-vk-x06">
+                                <rect key="frame" x="106" y="48" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="tkL-Dl-xIN" id="Z4S-oc-ogR">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="e5j-Cr-aPk">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="tkL-Dl-xIN"/>
+                                            <menuItem title="IME を on" id="0wj-0B-UFy"/>
+                                            <menuItem title="IME を off" id="pLG-U3-rbM"/>
+                                            <menuItem title="IME を on/off" id="C4J-hX-5Xz">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Right Command" id="Hra-hO-1WN"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bPM-z5-A2H">
+                                <rect key="frame" x="18" y="53" width="82" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="右 Command" id="VAY-xA-L9w">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vMR-DF-w9M">
+                                <rect key="frame" x="106" y="232" width="121" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="利用しない" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="msu-ue-ON1" id="tHH-dL-u4F">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="AS3-Dz-mYb">
+                                        <items>
+                                            <menuItem title="利用しない" state="on" id="msu-ue-ON1"/>
+                                            <menuItem title="IME を on" id="oog-rE-d7z"/>
+                                            <menuItem title="IME を off" id="H9t-LZ-yaV"/>
+                                            <menuItem title="IME を on/off" id="qqB-fg-w0q">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <binding destination="X8P-sd-WCS" name="selectedIndex" keyPath="values.Left Shift" id="n4m-v4-yo7"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="98L-sI-ywd">
+                                <rect key="frame" x="19" y="237" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="左 Shift" id="Wd3-f7-HTP">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0G-jD-C2V">
+                                <rect key="frame" x="19" y="22" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="右 Shift" id="VMF-oi-F0l">
+                                    <font key="font" size="13" name=".HiraKakuInterface-W3"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
                     </view>
                 </viewController>
-                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="W9d-6j-kRz" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController representsSharedInstance="YES" id="X8P-sd-WCS"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="548" y="703"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NSAdvanced" width="32" height="32"/>
+        <image name="NSPreferencesGeneral" width="32" height="32"/>
+    </resources>
 </document>

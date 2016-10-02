@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IMESwitcher Helper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>IMESwitcherHelper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ime-switcher.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,26 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>3E4176581D9F601200241879</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E41766D1D9F601200241879</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E4176781D9F601200241879</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E41768C1D9F76EC00241879</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3ECD936B1D936AAC00E4E98B</key>
 		<dict>
 			<key>primary</key>

@@ -9,7 +9,7 @@
 import XCTest
 @testable import ime_switcher
 
-class ime_switcherTests: XCTestCase {
+class IMESwitcherTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
