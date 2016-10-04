@@ -18,8 +18,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         _ = KeyEvent()
         
         let menu = NSMenu()
-        self.statusItem.title = "■"
-        self.statusItem.highlightMode = true
+        //self.statusItem.title = "■"
+        //self.statusItem.highlightMode = true
+        self.statusItem.image = NSImage(named: "StatusBarImage")
         self.statusItem.menu = menu
         
         let prefMenuItem = NSMenuItem()
