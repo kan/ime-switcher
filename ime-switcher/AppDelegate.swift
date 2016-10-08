@@ -36,7 +36,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(quitMenuItem)
         
         
-        self.statusItem.isVisible = !self.defaults.bool(forKey: "Hide StatusBar Icon")
+        if #available(OSX 10.12, *) {
+            self.statusItem.isVisible = !self.defaults.bool(forKey: "Hide StatusBar Icon")
+        } else {
+            self.statusItem.button?.isHidden = true
+        }
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {

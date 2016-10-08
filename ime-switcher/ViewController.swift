@@ -32,11 +32,20 @@ class ViewController: NSViewController {
         let app = NSApplication.shared().delegate as! AppDelegate
         if sender.state == NSOnState {
             self.defaults.set(1, forKey: "Hide StatusBar Icon")
-            app.statusItem.isVisible = false
+            if #available(OSX 10.12, *) {
+                app.statusItem.isVisible = false
+            } else {
+                app.statusItem.button?.isHidden = true
+
+            }
             print("hide tray icon")
         } else {
             self.defaults.set(0, forKey: "Hide StatusBar Icon")
-            app.statusItem.isVisible = true
+            if #available(OSX 10.12, *) {
+                app.statusItem.isVisible = true
+            } else {
+                app.statusItem.button?.isHidden = false
+            }
             print("show tray icon")
         }
     }
